@@ -1,0 +1,96 @@
+// Place all the styles related to the StaticPages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+    background-image: url(https://s3.amazonaws.com/spoonflower/public/design_thumbnails/0568/7226/rrWatercolour_Floral_ditsy_Old_Style_shop_preview.png)
+}
+
+.bodyswatch {
+  background-image: url(https://s3.amazonaws.com/spoonflower/public/designs/0383/8733/rdetailed_navy_doodle_pattern_base.jpg)
+}
+
+.bodyfq {
+  background-image: url(https://s3.amazonaws.com/spoonflower/public/designs/0524/7883/rHexagon_LINEN.jpg);
+}
+
+.bodyyard {
+  background-image: url(https://s3.amazonaws.com/spoonflower/public/designs/0118/6967/rBag_Pattern_fills_v2-06.jpg);
+}
+
+.bodyyardage {
+  background-image: url(https://s3.amazonaws.com/spoonflower/public/designs/0469/2773/rgeode-seamless-mossy-green-small.png);
+}
+
+h1 {
+  font-family: Palatino, sans-serif;
+  color: #383e60;
+  background-color: #fefbf7;
+  text-align: center;
+  align: center;
+  border-style: solid;
+  padding: 85px;
+  font-size: 5em;
+}
+
+.words {
+  font-family: Palatino, sans-serif;
+  text-align: center;
+  font-size: large;
+  background-color: #779999;
+  border-style: solid;
+  padding: 85px;
+}
+
+.swatchwords {
+  font-family: Palatino, sans-serif;
+  text-align: center;
+  font-size: large;
+  background-color: #fefbf7;
+  border-style: solid;
+  padding: 85px;
+}
+
+.fqwords {
+    font-family: Palatino, sans-serif;
+    text-align: center;
+    font-size: large;
+    background-color: #8DBAB5;
+    border-style: solid;
+    padding: 85px;
+  }
+
+.yardwords {
+      font-family: Palatino, sans-serif;
+      text-align: center;
+      font-size: large;
+      background-color: #00C1FF;
+      border-style: solid;
+      padding: 85px;
+    }
+
+.yardagewords {
+      font-family: Palatino, sans-serif;
+      text-align: center;
+      font-size: large;
+      background-color: #189C77;
+      border-style: solid;
+      padding: 85px;
+    }
+
+
+
+.mybuttonz {
+  margin-top: 5em;
+  a {
+    width: 200px;
+    padding: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 100%;
+    background: #ffe4e1;
+    color: #4C004C;
+    border: 1px solid #ffe4e1;
+    border-radius: 10px;
+    text-decoration: none;
+  }
+}
