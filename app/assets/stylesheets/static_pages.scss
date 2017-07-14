@@ -32,10 +32,28 @@ h1 {
   font-size: 5em;
 }
 
+.imagecontainer {
+  display: inline-block;
+  margin: 20px;
+  position: relative;
+}
+
+.description{
+    font-family: Palatino, sans-serif;
+    background: #ffe4e1;
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    width: 80%;
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+
 .words {
   font-family: Palatino, sans-serif;
   text-align: center;
-  font-size: large;
+  font-size: 20px;
   background-color: #779999;
   border-style: solid;
   padding: 85px;
@@ -44,7 +62,7 @@ h1 {
 .swatchwords {
   font-family: Palatino, sans-serif;
   text-align: center;
-  font-size: large;
+  font-size: 20px;
   background-color: #fefbf7;
   border-style: solid;
   padding: 85px;
@@ -53,7 +71,7 @@ h1 {
 .fqwords {
     font-family: Palatino, sans-serif;
     text-align: center;
-    font-size: large;
+    font-size: 20px;
     background-color: #8DBAB5;
     border-style: solid;
     padding: 85px;
@@ -62,7 +80,7 @@ h1 {
 .yardwords {
       font-family: Palatino, sans-serif;
       text-align: center;
-      font-size: large;
+      font-size: 20px;
       background-color: #00C1FF;
       border-style: solid;
       padding: 85px;
@@ -71,7 +89,7 @@ h1 {
 .yardagewords {
       font-family: Palatino, sans-serif;
       text-align: center;
-      font-size: large;
+      font-size: 20px;
       background-color: #189C77;
       border-style: solid;
       padding: 85px;
