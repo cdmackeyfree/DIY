@@ -21,6 +21,10 @@ body {
   background-image: url(https://s3.amazonaws.com/spoonflower/public/designs/0469/2773/rgeode-seamless-mossy-green-small.png);
 }
 
+.quiltbody {
+  background-image: url(https://s3.amazonaws.com/spoonflower/public/designs/0634/1328/rtttweety_twerky_cheep_cheep_repeat.png);
+}
+
 h1 {
   font-family: Palatino, sans-serif;
   color: #383e60;
@@ -53,16 +57,26 @@ h1 {
 .words {
   font-family: Palatino, sans-serif;
   text-align: center;
-  font-size: 20px;
-  background-color: #779999;
+  font-size: 25px;
+  background-color: #bbcccc;
   border-style: solid;
   padding: 85px;
 }
 
+.quiltwords {
+  font-family: Palatino, sans-serif;
+  text-align: center;
+  font-size: 25px;
+  background-color: #fde0cd;
+  border-style: solid;
+  padding: 85px;
+}
+
+
 .swatchwords {
   font-family: Palatino, sans-serif;
   text-align: center;
-  font-size: 20px;
+  font-size: 25px;
   background-color: #fefbf7;
   border-style: solid;
   padding: 85px;
@@ -71,7 +85,7 @@ h1 {
 .fqwords {
     font-family: Palatino, sans-serif;
     text-align: center;
-    font-size: 20px;
+    font-size: 25px;
     background-color: #8DBAB5;
     border-style: solid;
     padding: 85px;
@@ -80,8 +94,8 @@ h1 {
 .yardwords {
       font-family: Palatino, sans-serif;
       text-align: center;
-      font-size: 20px;
-      background-color: #00C1FF;
+      font-size: 25px;
+      background-color: #99e6ff;
       border-style: solid;
       padding: 85px;
     }
@@ -89,8 +103,8 @@ h1 {
 .yardagewords {
       font-family: Palatino, sans-serif;
       text-align: center;
-      font-size: 20px;
-      background-color: #189C77;
+      font-size: 25px;
+      background-color: #abdbcd;
       border-style: solid;
       padding: 85px;
     }

@@ -13,5 +13,8 @@ class StaticPagesController < ApplicationController
 
   def yardage
   end
-  
+
+  def quilt
+  end
+
 end
