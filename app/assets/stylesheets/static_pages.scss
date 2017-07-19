@@ -25,6 +25,10 @@ body {
   background-image: url(https://s3.amazonaws.com/spoonflower/public/designs/0634/1328/rtttweety_twerky_cheep_cheep_repeat.png);
 }
 
+.resourcebody{
+  background-image: url(https://s3.amazonaws.com/spoonflower/public/designs/0655/5249/rFALL2017_ACORNFLORAL_GREENORANGE.jpg);
+}
+
 h1 {
   font-family: Palatino, sans-serif;
   color: #383e60;
@@ -60,6 +64,15 @@ h1 {
 }
 
 .words {
+  font-family: Palatino, sans-serif;
+  text-align: center;
+  font-size: 25px;
+  background-color: #bbcccc;
+  border-style: solid;
+  padding: 85px;
+}
+
+.resourcewords {
   font-family: Palatino, sans-serif;
   text-align: center;
   font-size: 25px;
