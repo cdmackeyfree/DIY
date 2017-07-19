@@ -3,13 +3,12 @@ development:
   encoding: unicode
   database: myapp_development
   pool: 5
-  username: myapp
-  password: password1
+  username: Spoonflower
+
 
 test:
   adapter: postgresql
   encoding: unicode
   database: myapp_test
   pool: 5
-  username: myapp
-  password: password1
+  username: Spoonflower
