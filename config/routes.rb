@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+
   root 'static_pages#home'
   get 'static_pages/home'
 
@@ -13,5 +14,9 @@ Rails.application.routes.draw do
   get 'static_pages/quilt'
 
   get 'static_pages/resources'
+
+  get 'static_pages/suggestions'
+
+  get 'static_pages/whatisafq'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
