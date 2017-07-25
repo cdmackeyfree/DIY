@@ -20,9 +20,6 @@ class StaticPagesController < ApplicationController
   def resources
   end
 
-  def suggestions
-  end
-
   def whatisafq
   end
 
