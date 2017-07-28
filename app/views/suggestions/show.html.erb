@@ -1,5 +1,10 @@
 <p id="notice"><%= notice %></p>
 
+<html>
+<body class = "showbody">
+<h1>What a Great Idea!</h1>
+<div class = "showwords">
+
 <p>
   <strong>Title:</strong>
   <%= @suggestion.title %>
@@ -10,5 +15,11 @@
   <%= @suggestion.description %>
 </p>
 
-<%= link_to 'Edit', edit_suggestion_path(@suggestion) %> |
-<%= link_to 'Back', suggestions_path %>
+<div class = "mybuttonz">
+<%= link_to 'Edit my Suggestion', edit_suggestion_path(@suggestion) %> |
+<%= link_to 'Back to Suggestions', suggestions_path %>
+</div>
+
+</div>
+</body>
+</html>

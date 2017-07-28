@@ -5,7 +5,7 @@
 <body class = "suggestbody">
 <div class = "suggestwords">
 <p>Don't see the project you'd like to complete on our site? Let us know! The suggestions with the most votes will be posted, so tell your friends!</p>
-
+<p> 
 <table>
   <thead>
     <tr>
@@ -14,7 +14,7 @@
     </tr>
   </thead>
 
-  <tbody>
+ <tbody>
     <% @suggestions.each do |suggestion| %>
       <tr>
         <td><%= link_to suggestion.title, suggestion %></td>
@@ -25,6 +25,7 @@
     <% end %>
   </tbody>
 </table>
+</p>
 
 <br>
 

@@ -1,5 +1,17 @@
+<html>
+<body class = "showbody">
 <h1>New Suggestion</h1>
+<div class = "showwords">
+<p> <%= render 'form', suggestion: @suggestion %>
 
-<%= render 'form', suggestion: @suggestion %>
 
-<%= link_to 'Back', suggestions_path %>
+</p>
+
+<div class= "mybuttonz">
+  <%= link_to "Home", static_pages_home_path %>
+  <%= link_to "Suggestions", suggestions_path %>
+</div>
+
+</div>
+</body>
+</html>
