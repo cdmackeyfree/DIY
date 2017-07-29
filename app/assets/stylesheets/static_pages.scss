@@ -165,10 +165,17 @@ h1 {
     font-size: 100%;
     background: #ffe4e1;
     color: #4C004C;
-    border: 1px solid #ffe4e1;
+    border: 1px solid black;
     border-radius: 10px;
     text-decoration: none;
   }
+}
+
+.calculator {
+  background-color: white;
+  border-style: solid;
+  border-color: black;
+  width: inherit;
 }
 
 .dropdown {
