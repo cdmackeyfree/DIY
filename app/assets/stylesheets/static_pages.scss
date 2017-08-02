@@ -113,11 +113,10 @@ h1 {
   font-family: Palatino, sans-serif;
   text-align: center;
   font-size: 25px;
-  background-color: #fde0cd;
+  background-color: #e8f5f1;
   border-style: solid;
   padding: 85px;
 }
-
 
 .swatchwords {
   font-family: Palatino, sans-serif;
@@ -174,18 +173,21 @@ h1 {
 .calculator {
   background-color: white;
   border-style: solid;
-  border-color: black;
-  width: inherit;
+  border-width: thin;
+  border-color: gray;
+  padding-top: 40px;
+  font-family: Palatino, sans-serif;
+  width: 25%;
+  margin: 0 auto;
 }
 
 .dropdown {
-    position: relative;
     display: inline-block;
+    position: inherit;
   }
 
   .dropdowntitle {
     padding: 20px;
-    cursor: pointer;
     font-family: Palatino, sans-serif;
     font-size: 100%;
     background: #c5e3ed;
@@ -197,8 +199,9 @@ h1 {
 
 .dropdown-content {
     display: none;
-    position: relative;
+    position: absolute;
     background-color: #f9f9f9;
+    width: inherit;
 }
 
 .dropdown:hover .dropdown-content {
