@@ -23,4 +23,8 @@ class StaticPagesController < ApplicationController
   def whatisafq
   end
 
+  def random
+  end
+
+
 end

@@ -24,5 +24,6 @@ end
 
   get 'static_pages/whatisafq'
 
+  get 'static_pages/random'
 
 end
