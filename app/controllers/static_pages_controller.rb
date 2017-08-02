@@ -17,4 +17,10 @@ class StaticPagesController < ApplicationController
   def quilt
   end
 
+  def resources
+  end
+
+  def whatisafq
+  end
+
 end

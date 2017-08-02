@@ -25,6 +25,18 @@ body {
   background-image: url(https://s3.amazonaws.com/spoonflower/public/designs/0634/1328/rtttweety_twerky_cheep_cheep_repeat.png);
 }
 
+.resourcebody{
+  background-image: url(https://s3.amazonaws.com/spoonflower/public/designs/0655/5249/rFALL2017_ACORNFLORAL_GREENORANGE.jpg);
+}
+
+.suggestbody {
+  background-image: url(https://s3.amazonaws.com/spoonflower/public/designs/0532/1659/Acid_rain_Galaxy-01.jpg);
+}
+
+.whatbody {
+  background-image: url(https://s3.amazonaws.com/spoonflower/public/designs/0395/2909/rTopiaryGroveBlueRedWh.jpg);
+}
+
 h1 {
   font-family: Palatino, sans-serif;
   color: #383e60;
@@ -56,6 +68,7 @@ h1 {
     width: 80%;
     padding: 20px;
     box-sizing: border-box;
+    display: none;
 
 }
 
@@ -68,15 +81,42 @@ h1 {
   padding: 85px;
 }
 
-.quiltwords {
+.whatwords {
   font-family: Palatino, sans-serif;
   text-align: center;
   font-size: 25px;
-  background-color: #fde0cd;
+  background-color: #FFFFFF;
   border-style: solid;
   padding: 85px;
 }
 
+
+.suggestwords {
+  font-family: Palatino, sans-serif;
+  text-align: center;
+  font-size: 25px;
+  background-color: #FFF7FE;
+  border-style: solid;
+  padding: 85px;
+}
+
+.resourcewords {
+  font-family: Palatino, sans-serif;
+  text-align: center;
+  font-size: 25px;
+  background-color: #bbcccc;
+  border-style: solid;
+  padding: 85px;
+}
+
+.quiltwords {
+  font-family: Palatino, sans-serif;
+  text-align: center;
+  font-size: 25px;
+  background-color: #e8f5f1;
+  border-style: solid;
+  padding: 85px;
+}
 
 .swatchwords {
   font-family: Palatino, sans-serif;
@@ -91,7 +131,7 @@ h1 {
     font-family: Palatino, sans-serif;
     text-align: center;
     font-size: 25px;
-    background-color: #8DBAB5;
+    background-color: #f8fdff;
     border-style: solid;
     padding: 85px;
   }
@@ -100,7 +140,7 @@ h1 {
       font-family: Palatino, sans-serif;
       text-align: center;
       font-size: 25px;
-      background-color: #99e6ff;
+      background-color: #e4f6ff;
       border-style: solid;
       padding: 85px;
     }
@@ -114,8 +154,6 @@ h1 {
       padding: 85px;
     }
 
-
-
 .mybuttonz {
   margin-top: 5em;
   a {
@@ -126,8 +164,46 @@ h1 {
     font-size: 100%;
     background: #ffe4e1;
     color: #4C004C;
-    border: 1px solid #ffe4e1;
+    border: 1px solid black;
     border-radius: 10px;
     text-decoration: none;
   }
+}
+
+.calculator {
+  background-color: white;
+  border-style: solid;
+  border-width: thin;
+  border-color: gray;
+  padding-top: 40px;
+  font-family: Palatino, sans-serif;
+  width: 25%;
+  margin: 0 auto;
+}
+
+.dropdown {
+    display: inline-block;
+    position: inherit;
+  }
+
+  .dropdowntitle {
+    padding: 20px;
+    font-family: Palatino, sans-serif;
+    font-size: 100%;
+    background: #c5e3ed;
+    color: #000000;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    text-decoration: none;
+  }
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: inherit;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
 }

@@ -1,4 +1,12 @@
 Rails.application.routes.draw do
+
+  resources :suggestions do
+    member do
+   post 'upvote'
+ end
+end
+
+
   root 'static_pages#home'
   get 'static_pages/home'
 
@@ -11,5 +19,10 @@ Rails.application.routes.draw do
   get 'static_pages/yardage'
 
   get 'static_pages/quilt'
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+
+  get 'static_pages/resources'
+
+  get 'static_pages/whatisafq'
+
+
 end
