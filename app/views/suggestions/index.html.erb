@@ -1,37 +1,33 @@
 <p id="notice"><%= notice %></p>
 
 <html>
-<h1>Suggestions</h1>
-<body class = "suggestbody">
-<div class = "suggestwords">
-<p>Don't see the project you'd like to complete on our site? Let us know! The suggestions with the most votes will be posted, so tell your friends!</p>
-<p>
-<table>
-  <thead>
-    <tr>
-      <th>Title</th>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
+  <h1>Suggestions</h1>
+    <body class = "suggestbody">
+      <div class = "suggestwords">
+        <p>Don't see the project you'd like to complete on our site? Let us know! The suggestions with the most votes will be posted, so tell your friends!</p>
+        <p>
+          <table>
+            <thead>
+              <tr>
+                <th>Title</th>
+                <th colspan="3"></th>
+              </tr>
+            </thead>
 
- <tbody>
-    <% @suggestions.each do |suggestion| %>
-      <tr>
-        <td><%= link_to suggestion.title, suggestion %></td>
-        <td><%= pluralize(suggestion.votes.count, "vote") %></td>
-        <td><%= button_to 'I like this!', upvote_suggestion_path(suggestion), method: :post %></td>
-        <td><%= link_to 'Terminate', suggestion, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
-</p>
-
-<br>
-<%= render 'layouts/buttons' %>
-
-
-
-</div>
-</body>
+           <tbody>
+              <% @suggestions.each do |suggestion| %>
+                <tr>
+                  <td><%= link_to suggestion.title, suggestion %></td>
+                  <td><%= pluralize(suggestion.votes.count, "vote") %></td>
+                  <td><%= button_to 'I like this!', upvote_suggestion_path(suggestion), method: :post %></td>
+                  <td><%= link_to 'Terminate', suggestion, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+                </tr>
+              <% end %>
+            </tbody>
+        </table>
+      </p>
+      <br>
+      <%= render 'layouts/buttons' %>
+    </div>
+  </body>
 </html>
