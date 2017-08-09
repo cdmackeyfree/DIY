@@ -31,13 +31,4 @@
   <p>Still not what you are looking for? </p>
 <p>You can check out the <a href= "https://support.spoonflower.com/hc/en-us">Spoonflower Help Center</a> or contact <a href= "https://www.spoonflower.com/feedback/new">Customer Service</a> for more support!
 
-  <div class= "mybuttonz">
-    <%= link_to "Home", static_pages_home_path %>
-    <%= link_to "Swatch", static_pages_swatch_path %>
-    <%= link_to "Fat Quarter", static_pages_fq_path %>
-    <%= link_to "One Yard", static_pages_yard_path %>
-    <%= link_to "Multiple Yards", static_pages_yardage_path %>
-    <%= link_to "Quilts", static_pages_quilt_path %>
-    <%= link_to "Suggestions", suggestions_path %>
-
-  </div>
+<%= render 'layouts/buttons' %>

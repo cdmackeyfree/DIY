@@ -5,7 +5,7 @@
 <body class = "suggestbody">
 <div class = "suggestwords">
 <p>Don't see the project you'd like to complete on our site? Let us know! The suggestions with the most votes will be posted, so tell your friends!</p>
-<p> 
+<p>
 <table>
   <thead>
     <tr>
@@ -28,15 +28,8 @@
 </p>
 
 <br>
+<%= render 'layouts/buttons' %>
 
-<div class= "mybuttonz">
-  <%= link_to "Home", static_pages_home_path %>
-  <%= link_to "Swatch", static_pages_swatch_path %>
-  <%= link_to "One Yard", static_pages_yard_path %>
-  <%= link_to "Multiple Yards", static_pages_yardage_path %>
-  <%= link_to "Resources", static_pages_resources_path %>
-  <%= link_to 'New Suggestion', new_suggestion_path %>
-</div>
 
 
 </div>

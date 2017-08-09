@@ -62,10 +62,10 @@ class SuggestionsController < ApplicationController
   end
 
   def upvote
-  @suggestion = Suggestion.find(params[:id])
-  @suggestion.votes.create
-  redirect_to(suggestion_path)
-end
+    @suggestion = Suggestion.find(params[:id])
+    @suggestion.votes.create
+    redirect_to suggestions_path
+  end
 
   private
     # Use callbacks to share common setup or constraints between actions.

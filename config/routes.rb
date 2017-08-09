@@ -6,24 +6,24 @@ Rails.application.routes.draw do
  end
 end
 
-
   root 'static_pages#home'
-  get 'static_pages/home'
 
-  get 'static_pages/swatch'
+    get 'static_pages/home'
 
-  get 'static_pages/fq'
+    get 'static_pages/swatch'
 
-  get 'static_pages/yard'
+    get 'static_pages/fq'
 
-  get 'static_pages/yardage'
+    get 'static_pages/yard'
 
-  get 'static_pages/quilt'
+    get 'static_pages/yardage'
 
-  get 'static_pages/resources'
+    get 'static_pages/quilt'
 
-  get 'static_pages/whatisafq'
+    get 'static_pages/resources'
 
-  get 'static_pages/random'
+    get 'static_pages/whatisafq'
+
+    get 'static_pages/random'
 
 end
