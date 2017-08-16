@@ -1,8 +1,8 @@
 // Place all the styles related to the StaticPages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-body {
-    background-image: url(https://s3.amazonaws.com/spoonflower/public/design_thumbnails/0568/7226/rrWatercolour_Floral_ditsy_Old_Style_shop_preview.png)
+.homebody {
+    background-image: url(https://s3.amazonaws.com/spoonflower/public/design_thumbnails/0568/7226/rrWatercolour_Floral_ditsy_Old_Style_shop_thumb.jpg)
 }
 
 .bodyswatch {
@@ -75,11 +75,11 @@ h1 {
     display: none;
 }
 
-.admin{
+.admin {
   display: none;
 }
 
-.adminbutton{
+.adminbutton {
     font-weight: bold;
     font-size: 15px;
     margin-top: 50px;
@@ -90,95 +90,53 @@ h1 {
     text-decoration: none;
   }
 
-.words {
-  font-family: Palatino, sans-serif;
-  text-align: center;
-  font-size: 25px;
-  background-color: #bbcccc;
+.text {
   border-style: solid;
+  text-align: center;
+  font-family: Palatino, sans-serif;
+  font-size: 25px;
   padding: 20px;
 }
 
+.words {
+  background-color: #bbcccc;
+}
+
 .randomwords {
-  font-family: Palatino, sans-serif;
-  text-align: center;
-  font-size: 25px;
   background-color: #C0F6FC;
-  border-style: solid;
-  padding: 85px;
 }
 
 .whatwords {
-  font-family: Palatino, sans-serif;
-  text-align: center;
-  font-size: 25px;
   background-color: #FFFFFF;
-  border-style: solid;
-  padding: 85px;
 }
 
 
 .suggestwords {
-  font-family: Palatino, sans-serif;
-  text-align: center;
-  font-size: 25px;
   background-color: #FFF7FE;
-  border-style: solid;
-  padding: 85px;
 }
 
 .resourcewords {
-  font-family: Palatino, sans-serif;
-  text-align: center;
-  font-size: 25px;
   background-color: #bbcccc;
-  border-style: solid;
-  padding: 85px;
 }
 
 .quiltwords {
-  font-family: Palatino, sans-serif;
-  text-align: center;
-  font-size: 25px;
   background-color: #e8f5f1;
-  border-style: solid;
-  padding: 20px;
 }
 
 .swatchwords {
-  font-family: Palatino, sans-serif;
-  text-align: center;
-  font-size: 25px;
   background-color: #fefbf7;
-  border-style: solid;
-  padding: 20px;
 }
 
 .fqwords {
-    font-family: Palatino, sans-serif;
-    text-align: center;
-    font-size: 25px;
     background-color: #f8fdff;
-    border-style: solid;
-    padding: 20px;
   }
 
 .yardwords {
-      font-family: Palatino, sans-serif;
-      text-align: center;
-      font-size: 25px;
       background-color: #e4f6ff;
-      border-style: solid;
-      padding: 20px;
     }
 
 .yardagewords {
-      font-family: Palatino, sans-serif;
-      text-align: center;
-      font-size: 25px;
       background-color: #abdbcd;
-      border-style: solid;
-      padding: 20px;
     }
 
 .mybuttonz {

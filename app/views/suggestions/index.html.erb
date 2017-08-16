@@ -3,7 +3,9 @@
 <html>
   <h1>Suggestions</h1>
     <body class = "suggestbody">
-      <div class = "suggestwords">
+      <div class = "suggestwords text">
+        <%= render 'layouts/buttons' %>
+        <br><br><br>
         <p>Don't see the project you'd like to complete on our site? Let us know! The suggestions with the most votes will be posted, so tell your friends!</p>
         <p>
           <table>
@@ -26,15 +28,16 @@
             </tbody>
         </table>
         <p>
-          <%= button_to "Admin View", "#", class: "adminbutton", remote: true %>
-            <!-- <a href ="#" class = "adminbutton">Admin View</a> -->
+          <div class="mybuttonz">
+            <%= link_to "New Suggestion", new_suggestion_path %>
+          </div>
         </p>
       </p>
-      <div class="mybuttonz">
-        <%= link_to "New Suggestion", new_suggestion_path %>
-      </div>
       <br>
-      <%= render 'layouts/buttons' %>
+      <%= button_to "Admin View", "#", class: "adminbutton", remote: true %>
+        <!-- The # sign converts this line to allow the button to give JS the space it needs
+      to do its thing without linking to anyhere.-->
+      <br>
     </div>
   </body>
 </html>
