@@ -19,12 +19,16 @@
                 <tr>
                   <td><%= link_to suggestion.title, suggestion %></td>
                   <td><%= pluralize(suggestion.votes.count, "vote") %></td>
-                  <td><%= button_to 'I like this!', upvote_suggestion_path(suggestion), :class => "button", method: :post %></td>
-                  <td><%= link_to 'Terminate', suggestion, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+                  <td><%= button_to 'I like this!', upvote_suggestion_path(suggestion), :class => "votebutton", method: :post %></td>
+                  <td><%= link_to 'Terminate', suggestion, method: :delete, class: "admin", data: { confirm: 'Are you sure?' } %></td>
                 </tr>
               <% end %>
             </tbody>
         </table>
+        <p>
+          <%= button_to "Admin View", "#", class: "adminbutton", remote: true %>
+            <!-- <a href ="#" class = "adminbutton">Admin View</a> -->
+        </p>
       </p>
       <div class="mybuttonz">
         <%= link_to "New Suggestion", new_suggestion_path %>
