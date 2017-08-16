@@ -27,6 +27,13 @@
               <% end %>
             </tbody>
         </table>
+        <!--  Created a table to display the suggestions once they are made.
+        The first line shows the suggestion title and links to that suggestion's show page.
+        Pluralize is  used to makes sure that the votes display as votes if there is more than one.
+        button_to makes a button for voting, upvote_suggestion_path(suggestion) returns the amount of votes
+        so that it is keeping track of click on each button visably on the page by using post. That is
+        followed by a hidden delete button that is only visible when the admin is toggled to show it. The class
+        admin is set to display: none in CSS and uses jQuery to toggle -->
         <p>
           <div class="mybuttonz">
             <%= link_to "New Suggestion", new_suggestion_path %>
