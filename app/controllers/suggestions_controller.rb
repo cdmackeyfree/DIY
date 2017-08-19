@@ -62,9 +62,9 @@ class SuggestionsController < ApplicationController
   end
 
   def upvote
-    @suggestion = Suggestion.find(params[:id])
-    @suggestion.votes.create
-    redirect_to suggestions_path
+    @suggestion = Suggestion.find(params[:id]) #finds the suggestion in the database with that id and stores it in @suggestion
+    @suggestion.votes.create #creates a vote for the suggestion next to it and saves it.
+    redirect_to suggestions_path # tells the browser to go back to suggestions_path (basically making it refresh and update but staying on the same page)
   end
 
   private

@@ -6,7 +6,10 @@ Rails.application.routes.draw do
  end
 end
 
-  root 'static_pages#home'
+#This organizes groups of controllers and makes a route for each of the suggestions controllers.
+#It allows the members to vote
+
+  root 'static_pages#home' #tells the application that the default address is the home static page
 
     get 'static_pages/home'
 
@@ -27,3 +30,5 @@ end
     get 'static_pages/random'
 
 end
+
+ #routes.rb controls matching the URLs to the code in the server
