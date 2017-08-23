@@ -20,7 +20,7 @@ class SuggestionsControllerTest < ActionDispatch::IntegrationTest
       post suggestions_url, params: { suggestion: { description: @suggestion.description, title: @suggestion.title } }
     end
 
-    assert_redirected_to suggestion_url(Suggestion.last)
+    assert_redirected_to suggestions_url
   end
 
   test "should show suggestion" do
@@ -35,7 +35,7 @@ class SuggestionsControllerTest < ActionDispatch::IntegrationTest
 
   test "should update suggestion" do
     patch suggestion_url(@suggestion), params: { suggestion: { description: @suggestion.description, title: @suggestion.title } }
-    assert_redirected_to suggestion_url(@suggestion)
+    assert_redirected_to suggestions_url
   end
 
   test "should destroy suggestion" do

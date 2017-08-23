@@ -8,7 +8,10 @@ function newIdea() {
 'Crop tops are half the size and twice the fun.', 'Make an apron and then make some cookies!', 'Who wears short shorts? You do - but you have to make them first',
 'Headbands are a good way to use some scraps!', 'Dress up your t-shirt with a sweet custom pocket.',
 'Your grandma would love a nice tea cozy.', 'Make some fabric baskets to hold all of your fabric!',
-'If anyone can bring the ascot back into fashion, it is you!', 'Dogs are cute, but dogs wearing bandanas are cuter.']
+'If anyone can bring the ascot back into fashion, it is you!', 'Dogs are cute, but dogs wearing bandanas are cuter.',
+'Beanies are a snitch to stitch up!', 'Hair ties are easy to make with any stretch fabric.', 'Nothing says "I love you" like a bow tie',
+'Wrist wraps to protect you when pumping iron!', 'Make back to school even better with a custom backpack!', 'You can always use another pair of leggings.',
+'Fact: Songs sound better when you have a custom guitar strap.','Whip up a pair of shorts and get in a more fashionable run.']
   var randomNumber = Math.floor(Math.random() * (ideas.length));
   document.getElementById('ideaDisplay').innerHTML = ideas[randomNumber];
 }
