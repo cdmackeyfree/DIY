@@ -14,9 +14,9 @@ end
 
 #wrote this method to practice writing tests. This method is to create an array that
 #houses all of the titles that are put into the suggestion page by users.
-#.self on the method refers to the class Suggestion, so the method name means "return all titles in suggestions"
-#Line 7 created an empty array
-#Line 8 tells the method to look under the Suggestion class at all of the suggestion
+#Line 6 self on the method refers to the class Suggestion
+#Line 7 created an empty array named titles
+#Line 8 tells the method to look under the Suggestion table in the database at all of the suggestions there individually
 #Line 9 pulls the title from each suggestion and shovels it into the titles array
 #line 10 ends that loop so that it will loop through every item in the array before ending
 #line 11 returns everything in the titles array

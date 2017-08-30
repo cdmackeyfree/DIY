@@ -2,9 +2,9 @@ Rails.application.routes.draw do
 
   resources :suggestions do
     member do
-   post 'upvote'
- end
-end
+      post 'upvote'
+    end
+  end
 
 #This organizes groups of controllers and makes a route for each of the suggestions controllers.
 #It allows the members to vote

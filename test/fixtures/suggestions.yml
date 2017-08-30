@@ -7,3 +7,6 @@ one:
 two:
   title: beanie
   description: hat
+
+# the fixtures are set objects that I can use to test something very specifically.
+# this allows me to know exactly what is failing or passing the test.
