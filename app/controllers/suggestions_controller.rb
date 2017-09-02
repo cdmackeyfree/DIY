@@ -3,9 +3,16 @@ class SuggestionsController < ApplicationController
 
   # GET /suggestions
   # GET /suggestions.json
+
+  # The controller holds all of the logic to make decisions for the application.
+  # The browser communicates directly with the controller
+  # The controller processes and responds to events and invokes changes to the model and view based on that
+  
   def index
     @suggestions = Suggestion.all
   end
+
+  # sets up that on the index page will show all of the suggestions
 
   # GET /suggestions/1
   # GET /suggestions/1.json

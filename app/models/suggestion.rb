@@ -2,6 +2,7 @@ class Suggestion < ApplicationRecord
   has_many :votes, dependent: :destroy
   #tells the application that one suggestion can have lots of votes and that they are
   #dependent on the suggestion they are tied to, if the suggestion is deleted the votes disappear
+  # all of the code related to and connecting to the database regarding suggestions goes here in the model
 
   def self.return_all_titles
     titles = []
