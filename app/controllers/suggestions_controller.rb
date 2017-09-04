@@ -7,7 +7,7 @@ class SuggestionsController < ApplicationController
   # The controller holds all of the logic to make decisions for the application.
   # The browser communicates directly with the controller
   # The controller processes and responds to events and invokes changes to the model and view based on that
-  
+
   def index
     @suggestions = Suggestion.all
   end
@@ -70,7 +70,7 @@ class SuggestionsController < ApplicationController
 
   def upvote
     @suggestion = Suggestion.find(params[:id]) #finds the suggestion in the database with that id and stores it in @suggestion
-    @suggestion.votes.create #creates a vote for the suggestion next to it and saves it.
+    @suggestion.votes.create #creates a vote for that suggestion and saves it.
     redirect_to suggestions_path # tells the browser to go back to suggestions_path (basically making it refresh and update but staying on the same page)
   end
 
